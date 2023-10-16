@@ -1,6 +1,7 @@
 package com.sduduzog.slimlauncher.ui.main
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.*
 import android.content.pm.LauncherApps
 import android.net.Uri
@@ -136,14 +137,28 @@ class HomeFragment : BaseFragment(), OnLaunchAppListener {
 
         home_fragment_date.setOnClickListener {
             try {
-                val builder = CalendarContract.CONTENT_URI.buildUpon().appendPath("time")
-                val intent = Intent(Intent.ACTION_VIEW, builder.build())
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                launchActivity(it, intent)
+                val packageName = "me.proton.android.calendar" // Replace with the package name of your target app
+                val intent = context?.packageManager!!.getLaunchIntentForPackage(packageName)
+
+                if (intent != null) {
+                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                    launchActivity(it, intent)
+                } else {
+                    // Handle the case where the app is not installed
+                    AlertDialog.Builder(context)
+                            .setTitle("Error")
+                            .setMessage("Proton Calendar is not installed!")
+                            .setPositiveButton("OK") { dialog, _ ->
+                                // Handle the "OK" button click here, if needed
+                                dialog.dismiss()
+                            }
+                            .show()
+                }
             } catch (e: ActivityNotFoundException) {
-                // Do nothing, we've failed :(
+                // Handle exceptions, if any
             }
         }
+
 
         unlauncherDataSource.quickButtonPreferencesRepo.liveData()
             .observe(viewLifecycleOwner) { prefs ->
