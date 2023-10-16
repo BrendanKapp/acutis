@@ -12,7 +12,7 @@ plugins {
 android {
     compileSdkVersion(33)
     defaultConfig {
-        applicationId = "com.jkuester.unlauncher"
+        applicationId = "com.bkapp.acutis"
         minSdkVersion(21)
         targetSdkVersion(33)
         versionName = "2.1.0"
