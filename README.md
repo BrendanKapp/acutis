@@ -23,7 +23,7 @@ Based on Unlauncher, Acutis aims to improve usability, accessability, and privac
 
 ## About
 
-Unlauncher-Features:
+Unlauncher Features:
 
 - List your top apps on the home screen
 - No app icons
