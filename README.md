@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="graphics/icon_black4.png">
+  <img src="graphics/icon_black4.png" style="width:200px;">
 </p>
 
 <h1 align="center">
