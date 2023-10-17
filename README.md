@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/unlauncher-logo.png">
+  <img src="graphics/icon_black4.png">
 </p>
 
 <h1 align="center">
