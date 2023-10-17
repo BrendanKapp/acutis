@@ -6,12 +6,10 @@
   Acutis - The Minimalist Launcher for Android
 </h1>
 
-![Build Status](https://github.com/jkuester/unlauncher/workflows/Android%20Master%20Branch%20CI/badge.svg)
-
 > _Freedom from your phone_
 
 [<img src="https://f-droid.org/badge/get-it-on.png"
-     alt="Get it on F-Droid"
+     alt="Get upstream on F-Droid"
      height="80">](https://f-droid.org/packages/com.jkuester.unlauncher/)
 
 The goal of Acutis is to provide a non-addictive Android experience that is free from the endless rabbit-holes of modern Android.
