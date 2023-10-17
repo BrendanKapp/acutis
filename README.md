@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Unlauncher
+  Acutis - The Minimalist Launcher for Android
 </h1>
 
 ![Build Status](https://github.com/jkuester/unlauncher/workflows/Android%20Master%20Branch%20CI/badge.svg)
@@ -14,7 +14,9 @@
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/com.jkuester.unlauncher/)
 
-The goal of Unlauncher is to provide a clean and simple Android launcher experience. We believe you should have easy access to all of your apps without the distraction of bells, whistles, and notifications clamouring for your attention. You want to be able to use your phone, not have your phone use you!
+The goal of Acutis is to provide a non-addictive Android experience that is free from the endless rabbit-holes of modern Android.
+
+Based on Unlauncher, Acutis aims to improve usability, accessability, and privacy.
 
 <p float="left">
   <img height="724" width="400" src="docs/assets/home-screen-1.png">
@@ -23,7 +25,7 @@ The goal of Unlauncher is to provide a clean and simple Android launcher experie
 
 ## About
 
-Features:
+Unlauncher-Features:
 
 - List your top apps on the home screen
 - No app icons
@@ -32,6 +34,18 @@ Features:
 - Show/Hide the notification bar on your home screen
 - No wallpapers
 - Multiple color themes
+
+Acutis Features:
+- Improved calendar widget
+- Preliminary weather widget
+- 7 home apps, not 6
+
+Planned Features:
+
+- Working weather widget for home screen
+- Select any weather or calendar app for the home screen widgets
+- Acutis Store, for apps that are designed with like-minded intentions
+- Improved themes (better color palletes + custom themed app icon)
 
 ## What people are saying
 
